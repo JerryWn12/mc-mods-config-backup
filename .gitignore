@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Keep this file tracked
+!.gitignore
+
+# Track the root config folder and its contents
+!config/
+!config/**
+
+# Track the main options.txt file
+!options.txt
+
+# Track only .txt files inside shaderpacks
+!shaderpacks/
+shaderpacks/**
+!shaderpacks/**/*.txt
