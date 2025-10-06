@@ -7,7 +7,7 @@ entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.5
-fovEffectScale:0.19999999999999998
+fovEffectScale:0.2
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75

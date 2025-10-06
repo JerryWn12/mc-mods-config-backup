@@ -18,3 +18,4 @@ shaderpacks/**
 
 config/jade/usernamecache.json
 config/fabric/indigo-renderer.properties
+config/sodium-fingerprint.json
