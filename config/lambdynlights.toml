@@ -207,5 +207,7 @@ mode = "fancy"
 
 [debug]
 	active_dynamic_lighting_cells = false
+	cell_display_radius = 0
 	display_dynamic_lighting_chunk_rebuild = false
 	display_behavior_bounding_box = false
+	light_level_radius = 0
