@@ -7,7 +7,7 @@ entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.5
-fovEffectScale:0.2
+fovEffectScale:0.19999999999999998
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
@@ -52,7 +52,7 @@ damageTiltStrength:0.2
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","file/Default HD 128x Demo 1.8.1.zip","file/FreshAnimations_v1.10.1.zip","file/FA+All_Extensions-v1.6.zip","continuity:default","continuity:glass_pane_culling_fix","file/Better-Leaves-9.4.zip","file/Fancy Crops v1.2.zip","file/waystones_1.21.8.zip"]
+resourcePacks:["vanilla","fabric","file/Default HD 128x Demo 1.8.1.zip","file/FreshAnimations_v1.10.1.zip","file/FA+All_Extensions-v1.6.zip","continuity:default","continuity:glass_pane_culling_fix","file/Better-Leaves-9.4.zip","file/Fancy Crops v1.2.zip","file/waystones_1.21.8.zip","file/Sparkles_1.21.x_v1.1.4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
