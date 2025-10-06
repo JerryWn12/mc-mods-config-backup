@@ -74,12 +74,12 @@
 	#Default Value: 80
 	# Default: 80
 	# Range: > 0
-	display_time = 80
+	display_time = 90
 	#Amount of ticks it takes for an entry to move out of the screen.
 	#Default Value: 20
 	# Default: 20
 	# Range: > 0
-	move_time = 20
+	move_time = 10
 	#Make outdated entry names slowly fade away instead of simply vanishing.
 	#Default Value: true
 	fade_out = true

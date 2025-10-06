@@ -12,13 +12,13 @@ terrainSlopes:2
 terrainDepth:true
 footsteps:true
 flowers:true
-coordinates:true
+coordinates:false
 hoveredBiome:true
 biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true
 displayZoom:true
-worldmapWaypointsScale:1.0
+worldmapWaypointsScale:0.5
 openMapAnimation:true
 reloadVersion:0
 reloadEverything:false
@@ -38,8 +38,8 @@ displayStainedGlass:true
 caveModeDepth:30
 caveModeStart:2147483647
 autoCaveMode:-1
-legibleCaveMaps:false
-displayCaveModeStart:true
+legibleCaveMaps:true
+displayCaveModeStart:false
 caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true

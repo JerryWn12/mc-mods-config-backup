@@ -29,8 +29,8 @@ disable_interaction_sounds = true
 #Select a modifier key required to be held, otherwise selecting "KEY" serves as a toggle. The key is defined in vanilla's controls menu.
 #Default Value: ALT
 #Allowed Values: KEY, ALWAYS, SHIFT, CONTROL, ALT
-carried_item_tooltips = "ALT"
+carried_item_tooltips = "ALWAYS"
 #Render a white overlay or the hotbar selected item frame over the slot the next item will be taken out of when right-clicking the container item.
 #Default Value: HOVER
 #Allowed Values: HOTBAR, HOVER
-slot_overlay = "HOVER"
+slot_overlay = "HOTBAR"

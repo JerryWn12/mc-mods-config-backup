@@ -8,8 +8,8 @@
 	"list": [
 		"minecraft:armor_stand"
 	],
-	"after_attack": false,
-	"time_after_hit": 60,
+	"after_attack": true,
+	"time_after_hit": 10,
 	"damaged_only": false,
 	"max_health_percentage": 100,
 	"looking_at": false,
@@ -20,7 +20,7 @@
 	"indicator_type": "HEARTS",
 	"icons_per_row": 10,
 	"use_vanilla_textures": false,
-	"health_bar_opacity": 100,
+	"health_bar_opacity": 60,
 	"show_heart_effects": true,
 	"number_color": -65536,
 	"render_number_display_shadow": false,

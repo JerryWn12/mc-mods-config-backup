@@ -33,11 +33,11 @@
 				"modifier": 0
 			},
 			"copyRecipeIdentifierKeybind": {
-				"keyCode": "key.mouse.middle",
+				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
 			"favoriteKeybind": {
-				"keyCode": "key.keyboard.a",
+				"keyCode": "key.keyboard.f",
 				"modifier": 0
 			},
 			"exportImageKeybind": {
@@ -45,7 +45,7 @@
 				"modifier": 0
 			},
 			"previousScreenKeybind": {
-				"keyCode": "key.keyboard.backspace",
+				"keyCode": "key.keyboard.q",
 				"modifier": 0
 			}
 		},
@@ -54,12 +54,12 @@
 		"cheatingStyle": "GRAB"
 	},
 	"appearance": {
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
 			// Declares the position of the search field.
-			"searchFieldLocation": "CENTER",
+			"searchFieldLocation": "TOP_SIDE",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
@@ -84,11 +84,11 @@
 		"isFocusModeZoomed": false
 	},
 	"functionality": {
-		"inputMethod": null,
+		"inputMethod": "rei:default",
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether mob effects should be on the left side instead of the right side.
-		"leftSideMobEffects": false,
+		"leftSideMobEffects": true,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true,
@@ -115,7 +115,7 @@
 			"debugRenderTimeRequired": false,
 			// Merges displays with equal contents under 1 display.
 			"mergeDisplayUnderOne": true,
-			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
+			"favoriteAddWidgetMode": "ALWAYS_INVISIBLE"
 		},
 		"accessibility": {
 			"entrySize": 1.0,
@@ -138,9 +138,9 @@
 			"asyncSearchPartitionSize": 100,
 			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
-			"tagSearch": "PREFIX",
+			"tagSearch": "NEVER",
 			"identifierSearch": "ALWAYS",
-			"modSearch": "PREFIX"
+			"modSearch": "ALWAYS"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.
@@ -160,7 +160,33 @@
 			"cachingDisplayLookup": true,
 			"categorySettings": {
 				"filteringQuickCraftCategories": { },
-				"categoryOrdering": [],
+				"categoryOrdering": [
+					"minecraft:plugins/crafting",
+					"minecraft:plugins/smelting",
+					"minecraft:plugins/smoking",
+					"minecraft:plugins/blasting",
+					"minecraft:plugins/campfire",
+					"minecraft:plugins/stone_cutting",
+					"minecraft:plugins/fuel",
+					"minecraft:plugins/brewing",
+					"minecraft:plugins/composting",
+					"minecraft:plugins/stripping",
+					"minecraft:plugins/smithing",
+					"minecraft:plugins/anvil",
+					"minecraft:plugins/beacon_base",
+					"minecraft:plugins/beacon_payment",
+					"minecraft:plugins/tilling",
+					"minecraft:plugins/pathing",
+					"minecraft:plugins/waxing",
+					"minecraft:plugins/wax_scraping",
+					"minecraft:plugins/oxidizing",
+					"minecraft:plugins/oxidation_scraping",
+					"farmersdelight:plugin/cooking",
+					"farmersdelight:plugin/cutting",
+					"farmersdelight:plugin/decomposition",
+					"roughlyenoughitems:plugins/information",
+					"minecraft:plugins/tag"
+				],
 				"hiddenCategories": []
 			}
 		},
@@ -169,7 +195,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			]
 		}
 	}

@@ -164,7 +164,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 16
+		numberOfThreads = 32
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -270,7 +270,7 @@ _version = 3
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 
 [client]
 	#
@@ -311,7 +311,7 @@ _version = 3
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
@@ -629,7 +629,7 @@ _version = 3
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 512
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
